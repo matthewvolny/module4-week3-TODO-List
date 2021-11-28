@@ -1,0 +1,37 @@
+* {
+  font-family: "Comfortaa", cursive;
+  border: solid 1px black;
+}
+header {
+  background: lightblue;
+}
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  text-align: center;
+}
+
+.enter-task-interface {
+  background: cyan;
+  justify-content: center;
+}
+
+.pending-tasks-interface {
+  background: darkkhaki;
+}
+
+.new-task {
+}
+
+.check-mark {
+  background-color: darkkhaki;
+}
+
+.remove-button {
+  background-color: darkkhaki;
+}
+
+.completed-tasks-interface {
+  background: darksalmon;
+}
