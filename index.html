@@ -20,18 +20,12 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <div class="container-head">
+    <div class="container-head container">
       <header class="header row">
-        <h1 class="col-12 col-sm-6">Matthew's To-do list</h1>
-        <nav class="col-12 col-sm-6">
-          <ul>
-            <li>github acct</li>
-            <li>LinkedIn</li>
-          </ul>
-        </nav>
+        <h1 class="col-12">Matthew's To-do list</h1>
       </header>
     </div>
-    <div class="container-main">
+    <div class="container-main container">
       <div class="enter-task-interface row">
         <div class="col-12 col-sm-6 col-md-4">Enter task</div>
         <div class="task-text-box col-12 col-sm-6 col-md-4">
@@ -43,10 +37,14 @@
       </div>
 
       <div class="pending-tasks-interface row">
-        <div class="col-12">Pending Tasks</div>
+        <div class="col-12 pending-tasks">
+          <span>Pending Tasks</span>
+        </div>
       </div>
       <div class="completed-tasks-interface row">
-        <div class="col-12">Completed Tasks</div>
+        <div class="col-12">
+          <span>Completed Tasks</span>
+        </div>
       </div>
     </div>
 

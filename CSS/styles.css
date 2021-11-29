@@ -1,6 +1,6 @@
 * {
   font-family: "Comfortaa", cursive;
-  /*border: solid 1px black;*/
+  /* border: solid 1px black; */
   text-align: center;
   box-sizing: border-box;
 }
@@ -8,65 +8,97 @@
 .container-head {
   width: 90vw;
   margin: 0 auto;
+  align-content: center;
+  padding: 0;
 }
-header {
-  background: lightblue;
+
+.header {
+  background: #cbf078;
+  display: flex;
+  align-items: center;
+  padding: 25px 0px 20px 0px;
+  margin: 15px 0px 0px 0px;
+}
+
+.header h1 {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
 }
 
 li {
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
 }
 .container-main {
   width: 90vw;
-  height: 80vh;
-  margin: 10px auto;
+  height: 90vh;
+  margin: 0px auto;
   text-align: center;
 }
 
 .enter-task-interface {
-  background: cyan;
+  background: ;
   justify-content: center;
-  height: 20%;
+  height: 25%;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  background: #cbf078;
 }
 
 .pending-tasks-interface {
-  background: darkkhaki;
+  background: ;
   height: 40%;
+}
+
+span {
+  background: #f1b963;
+}
+.margin {
+  margin: 3px 0px 3px 0px;
+  background: #f8f398;
+  height: 15%;
 }
 
 .task-button {
-  border-radius: 5px;
-  box-shadow: gray 2px 2px;
+  border: none;
+  /* border-radius: 5px;
+  box-shadow: gray 2px 2px; */
 }
 .new-task {
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 .check-mark {
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 .remove-button {
-  background-color: darkkhaki;
+  /* background-color: darkkhaki; */
 }
 
 .completed-tasks-interface {
-  background: darksalmon;
+  background: ;
   height: 40%;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .new-task-clone {
-  background-color: darksalmon;
+  /* background-color: darksalmon; */
 }
 
 .check-mark-clone {
-  background-color: darksalmon;
+  /* background-color: darksalmon; */
 }
 
 .remove-button-clone {
-  background-color: darksalmon;
+  /* background-color: darksalmon; */
 }
