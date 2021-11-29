@@ -1,26 +1,46 @@
 * {
   font-family: "Comfortaa", cursive;
-  border: solid 1px black;
+  /*border: solid 1px black;*/
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container-head {
+  width: 90vw;
+  margin: 0 auto;
 }
 header {
   background: lightblue;
 }
 
-.container {
-  width: 80vw;
+li {
+  display: inline;
+}
+.container-main {
+  width: 90vw;
   height: 80vh;
+  margin: 10px auto;
   text-align: center;
 }
 
 .enter-task-interface {
   background: cyan;
   justify-content: center;
+  height: 20%;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .pending-tasks-interface {
   background: darkkhaki;
+  height: 40%;
 }
 
+.task-button {
+  border-radius: 5px;
+  box-shadow: gray 2px 2px;
+}
 .new-task {
   background-color: darkkhaki;
 }
@@ -35,6 +55,8 @@ header {
 
 .completed-tasks-interface {
   background: darksalmon;
+  height: 40%;
+  margin-top: 5px;
 }
 
 .new-task-clone {
