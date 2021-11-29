@@ -22,6 +22,7 @@ header {
 }
 
 .new-task {
+  background-color: darkkhaki;
 }
 
 .check-mark {
@@ -34,4 +35,16 @@ header {
 
 .completed-tasks-interface {
   background: darksalmon;
+}
+
+.new-task-clone {
+  background-color: darksalmon;
+}
+
+.check-mark-clone {
+  background-color: darksalmon;
+}
+
+.remove-button-clone {
+  background-color: darksalmon;
 }
