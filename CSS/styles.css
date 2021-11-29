@@ -1,6 +1,6 @@
 * {
   font-family: "Comfortaa", cursive;
-  /* border: solid 1px black; */
+  /*border: solid 1px black;*/
   text-align: center;
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@
   background: #cbf078;
   display: flex;
   align-items: center;
-  padding: 25px 0px 20px 0px;
+  padding: 20px 0px 15px 0px;
   margin: 15px 0px 0px 0px;
 }
 
@@ -65,7 +65,7 @@ span {
 .margin {
   margin: 3px 0px 3px 0px;
   background: #f8f398;
-  height: 15%;
+  height: 20%;
 }
 
 .task-button {
@@ -75,6 +75,9 @@ span {
 }
 .new-task {
   /* background-color: darkkhaki; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .check-mark {
@@ -93,6 +96,9 @@ span {
 
 .new-task-clone {
   /* background-color: darksalmon; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .check-mark-clone {
